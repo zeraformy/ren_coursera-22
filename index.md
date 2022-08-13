@@ -1,4 +1,4 @@
-_[Sites](https://zeraformy.github.io/ren_coursera-22/sites/)
+_[Sites]_(https://zeraformy.github.io/ren_coursera-22/sites/)
 
 ## Welcome to GitHub Pages
 

@@ -2,7 +2,7 @@
 ### _[First Page](https://zeraformy.github.io/ren_coursera-22/sites/)_
 
 ### _[Module 2 Assignment Solution](https://zeraformy.github.io/ren_coursera-22/assignments/mod2_solution/index.html)_
-_Timing: 01:26:49.69_
+_`Timing: 01:26:49.69`_
 
 
 

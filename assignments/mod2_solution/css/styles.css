@@ -84,13 +84,15 @@ section.section-title{
 		border: grey solid 1px;
 	}
 	.card-menu.sushi {
-		width:  97%;
+		margin-top: 0.1%;
+		width:  98.5%;
 	}
 }
 
 /*mobile*/
 @media (max-width:  767px){
 	.card-menu{
+		margin-top: 2%;
 		width: 100%;
 		border: grey solid 1px;
 	}

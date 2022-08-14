@@ -24,6 +24,10 @@ h1{
 	padding:  10px;
 	text-align: center;
 }
+h2{
+	font-size: 175%;
+	text-decoration: none;
+}
 .section-title{
 	font-size:  125%;
 }

@@ -1,0 +1,92 @@
+/*desktop = 992px and above
+Tablet view = window is between 768px and 991px
+Mobile view = equal to or less than 767px.
+
+It consists of a page heading and 3 sections (all in one row in the desktop view).
+
+Layout: In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen
+Layout: In the tablet view (between 768px and 991px, inclusively), the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself.
+Layout: In the mobile view (equal to or less than 767px), each section should take up the entire row.
+
+Section title region: Each section should have a section title region that is always positioned at the top right corner of the section
+
+set the font size of the heading to be 75% larger and section title 25% larger */
+/*          Styling starts here            */
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Comic Sans MS", sans-serif;
+}
+h1{
+	font-size: 175%;
+	padding:  10px;
+	text-align: center;
+}
+.section-title{
+	font-size:  125%;
+}
+
+.card-menu{
+	background-color: #caf0f8;
+}
+div.container{
+	width:  100%;
+	padding:  1% 1.75% 1% 1.75%;
+}
+div > section{
+	margin: 0% 1% 1% 0%;
+}
+p{
+	padding: 0 5% 5% 5%;
+	clear: right;
+}
+
+section.section-title{
+	float: right;
+	margin: 0;
+	position: relative;
+	padding:  2%;
+	color: #ffb81c;
+}
+.section-title.chicken{
+	background-color: #572d2d;
+}
+.section-title.beef{
+	background-color: #ab2328;
+}
+.section-title.sushi{
+	background-color: #512d6d;
+}
+	
+/*   MEDIA   */
+/*desktop*/
+@media (min-width:  992px){
+	.card-menu{
+	width: 32%;
+	float:  left;
+	border: grey solid 1px;
+	}
+
+}
+
+/*tablet*/
+@media (min-width:  768px) and (max-width: 991px){
+	.card-menu{
+		width: 48%;
+		float:  left;
+		border: grey solid 1px;
+	}
+	.card-menu.sushi {
+		width:  97%;
+	}
+}
+
+/*mobile*/
+@media (max-width:  767px){
+	.card-menu{
+		width: 100%;
+		border: grey solid 1px;
+	}
+}
